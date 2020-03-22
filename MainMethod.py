@@ -12,7 +12,6 @@ def listComputations():
     print(a)
     print(a.__len__())
     print(a.pop(10))
-    b = [1, 15, 16, 172]
 
 
 def end():
