@@ -7,19 +7,7 @@ colLength = [
     '10', '40', '10', '10', '5', '100', '100', '10', '5', '3', '1', '8', '8', '8', '8', '10', '8', '30', '200', '10',
     '10', '19', '10', '10', '200', '600', '1', '1', '1', '1', '8', '8', '200', '10', '200', '100']
 
-colNames = ['AcctNo', 'CardLogo', 'PlasticType', 'CycNo', 'CorpCd', 'Sts', 'OverrideSts', 'OverrideStsStart',
-            'OverrideStsExpiry', 'OverrideStsUserId', 'EntityId', 'PayeeCd', 'SAPNo', 'ClientClass', 'ClientType',
-            'PrcsId', 'ApplId', 'ApplRef', 'SrcRefNo', 'SrcCd', 'InputSrc', 'CautionCd', 'PriceShieldInd', 'CmpyType',
-            'CmpyLegalName', 'CmpyEmbName', 'CmpyRegsName1', 'CmpyRegsName2', 'CmpyName1', 'CmpyName2', 'RiskCategory',
-            'AssessmentType', 'TaxId', 'BusnCategory', 'ClientClass1', 'ClientType1', 'CmpyRegsNo', 'RegsDate',
-            'RegsLocation', 'Shareholder', 'Capital', 'NetSales', 'NetProfit', 'RequiredReport', 'RcptName', 'RcptTel',
-            'RcptFax', 'PymtMode', 'PymtTerms', 'GracePeriod', 'PymtAmt', 'BankCd', 'BankAcctType', 'BankAcctNo',
-            'BankBranchCd', 'AcctType', 'BillingType', 'DeliveryType', 'SendingCd', 'BranchCd', 'SaleTerritory',
-            'SaleLevel', 'ApplIntroBy', 'Remarks', 'WebPw', 'CardSeq', 'AgeingInd', 'AutoReinstate', 'CaptDate',
-            'WriteOffDate', 'TerminatedDate', 'BlockDate', 'ReasonCd', 'ExpiryDate', 'TradeNo', 'CustSvcId',
-            'GovernmentLevyFeeCd', 'ReloadTxnCnt', 'LoyaltyCardNo', 'BusnEstablishment', 'SIC', 'WebUserId', 'Nob',
-            'RcptPrintInd', 'InvBillInd', 'PymtInd', 'VehPerfRptInd', 'MigrateId', 'LastUpdDate', 'UserId',
-            'CreationDate', 'CreatedBy', 'SAPName']
+colNames = ['colNames as List']
 
 dictionary = dict(zip(colNames, colLength))
 print(dictionary)
