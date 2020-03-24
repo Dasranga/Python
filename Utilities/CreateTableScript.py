@@ -1,4 +1,4 @@
-# Create empty dictionary
+#Script to Create Table Schema for Fixed Width Files
 
 colLength = [
     '8', '8', '8', '3', '15', '10', '10', '10', '10', '200', '10', '10', '20', '10', '10', '4', '10', '20', '38', '20',
